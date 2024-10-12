@@ -1,0 +1,49 @@
+/* Resets */
+* {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Stylings */
+.Nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.Nav__logo-wrapper {
+    flex: 1;
+}
+
+.Nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+.Nav__link-wrapper {
+    list-style: none;
+}
+
+.Nav__link-wrapper > .container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Nav__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    flex: 1;
+}
+
+.Nav__actions > button {
+    padding: 0.5em 1em;
+}
